@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #063148;
+    width: 100%;
+    position: fixed;
+  }
+
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+.menu {
+  list-style: none;
+  padding-left: 10px;
+  margin-right: 12px;
+}
+
+.header .menu li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 15px;
+  padding-left: 12px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header .col-md-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  text-align: center;
+}
+
+.pocetak {
+  padding-top: 350px;
+  padding-bottom: 350px;
+  background-image: linear-gradient(to left, black, #063148, black );
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.pocetak h1 {
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.pocetak p {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.info {
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+}
+
+.textinfo {
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  min-width: 50%;
+  max-width: 100%;
+}
+
+.infotextinfo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: grid;
+  place-items: center;
+}
+
+.listinfo {
+  padding-top: 20px;
+  color: orangered;
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sveusluge {
+  padding-top: 50px;
+  display: grid;
+  place-items: center;
+  padding-bottom: 50px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1338px;
+}
+
+#usluge {
+  background-image: linear-gradient(to left, black, #063148, black );
+}
+
+.jednausluga {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  max-height: 620px;
+  min-height: 420px;
+  max-width: 416px;
+  text-align: center;
+  padding: 30px;
+  margin: 15px;
+  width: 100%;
+  color: black;
+}
+
+.samousluge {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.samousluge img {
+  height: 120px;
+  max-width: 100%;
+}
+
+.jednausluga h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.sveusluge h2 {
+  padding-bottom: 50px;
+}
+
+.reference {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color: #063148;
+  color: white;
+}
+
+.partneri {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-image: linear-gradient(to left, black, #063148, black );
+  color: white;
+}
+
+.kontakt {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  text-align: center;
+  background-color: #063148;
+  color: white;  
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.kontaktadresatelefon {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+.kontaktadresatelefon div h6 {
+  text-align: center;
+}
+
+.a {
+  background-image: linear-gradient(to left, black, #063148, black);
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.a p {
+  margin: 0;
+}
